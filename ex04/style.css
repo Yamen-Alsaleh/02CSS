@@ -1,0 +1,21 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.box {
+    width: 300px;
+    padding: 30px;
+    border: 10px solid #34495e;
+    margin-bottom: 20px;
+    background-color: #ecf0f1;
+}
+
+.content-box {
+    box-sizing: content-box; 
+}
+
+.border-box {
+    box-sizing: border-box; 
+}
