@@ -1,21 +1,17 @@
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+.completed-task {
+    text-decoration: line-through;
+    color: gray;
 }
 
-.box {
-    width: 300px;
-    padding: 30px;
-    border: 10px solid #34495e;
-    margin-bottom: 20px;
-    background-color: #ecf0f1;
+li {
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
-.content-box {
-    box-sizing: content-box; 
-}
-
-.border-box {
-    box-sizing: border-box; 
+.delete-btn {
+    margin-left: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
 }

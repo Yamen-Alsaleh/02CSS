@@ -1,38 +1,5 @@
-.swatch {
-    display: inline-block;
-    width: 150px;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    margin-right: 10px;
-    border: 1px solid #333;
-}
-
-.named-color { background-color: tomato; }
-.hex-color   { background-color: #4A90E2; }
-.rgb-color   { background-color: rgb(50, 205, 50); }
-.rgba-color  { background-color: rgba(155, 89, 182, 0.5); color: black; }
-
-.comparison {
-    margin-top: 20px;
-    padding: 20px;
-    width: 300px;
-    border: 2px solid black;
-    color: white;
-}
-
-.opacity-box {
-    background-color: #000000;
-    opacity: 0.5;
-}
-
-.rgba-box {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.comparison button {
-    padding: 10px;
-    font-size: 14px;
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
 }
